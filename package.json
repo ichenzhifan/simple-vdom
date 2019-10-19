@@ -1,0 +1,48 @@
+{
+	"name": "vdom",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack-dev-server --config ./cfg/webpack.base.js",
+		"build": "webpack --env.production --config ./cfg/webpack.base.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"repository": {},
+	"dependencies": {
+		"core-decorators": "^0.20.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"@babel/plugin-proposal-decorators": "^7.4.4",
+		"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
+		"@babel/plugin-transform-runtime": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-react": "^7.0.0",
+		"@babel/runtime": "^7.5.5",
+		"@babel/runtime-corejs2": "^7.5.5",
+		"@loadable/component": "^5.10.2",
+		"autoprefixer": "^9.6.1",
+		"babel-loader": "^8.0.6",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.0.0",
+		"file-loader": "^4.2.0",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.8.0",
+		"node-sass": "^4.12.0",
+		"postcss-loader": "^3.0.0",
+		"react-hot-loader": "^4.12.15",
+		"redux-devtools-extension": "^2.13.8",
+		"sass-loader": "^7.2.0",
+		"style-loader": "^0.23.1",
+		"url-loader": "^2.1.0",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0",
+		"webpack-merge": "^4.2.1"
+	}
+}
